@@ -129,17 +129,3 @@ container_pull(
     registry = "index.docker.io",
     repository = "itsthenetwork/nfs-server-alpine",
 )
-
-container_pull(
-    name = "distroless_base",
-    digest = "sha256:2b0a8e9a13dcc168b126778d9e947a7081b4d2ee1ee122830d835f176d0e2a70",
-    registry = "gcr.io",
-    repository = "distroless/base",
-)
-
-container_pull(
-    name = "node12",
-    registry = "index.docker.io",
-    repository = "library/node",
-    tag = "12",
-)
